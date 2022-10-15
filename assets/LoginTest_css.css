@@ -1,21 +1,30 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-weight: 50px;
+    background-color: #fce1d7;
 }
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button{
     -webkit-appearance: none;
     margin: 0;
 }
-.yellow{
+.box{
     /*display: inline-block;*/              
     margin: 154px auto;
     width: 400px;
     min-height: 263px;
-    background: #FFF;
+    background: #166b2a;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0,0,0,.3);
     padding: 27px 25px;
+    color: white;
+}
+::placeholder {
+    color: white;
+    font-weight: bold;
+}
+a{
+    color: white;
 }
 .pink{
     width: 100%;
@@ -39,7 +48,23 @@ input[type="number"]::-webkit-outer-spin-button{
     padding: 15px 20px;
     text-align: center;
     border: none;
-    /*background: #a29bfe;*/
+    background-color: #e8b261;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    /*color: #FFF;*/
+    cursor: pointer;
+    transition: .3s;
+}
+
+.button:hover{
+    /*display: block;*/
+    width: 97%;
+    padding: 15px 20px;
+    text-align: center;
+    border: #e8b261;
+    background-color: #e88361;
     outline: none;
     border-radius: 30px;
     font-size: 1.2rem;
